@@ -24,7 +24,7 @@ let App = () => {
           factor={ 2 }
           style={{
             backgroundImage: `url(${ moon })`,
-            backgroundSize: 'cover'
+            backgroundSize: 'contain'
           }}
         />
 
