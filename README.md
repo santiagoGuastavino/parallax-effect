@@ -11,7 +11,6 @@ _This project is a showcase of the implementation of the parallax effect in a Re
 
 ---
 
-To make this, I followed instructions of a [Fireship's Youtube Channel](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA) video.  
 Great parallax effect usage example: [Firewatch game website](https://www.firewatchgame.com/).
 
 
