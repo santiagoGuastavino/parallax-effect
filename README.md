@@ -13,7 +13,6 @@ _This project is a showcase of the implementation of the parallax effect in a Re
 
 Great parallax effect usage example: [Firewatch game website](https://www.firewatchgame.com/).
 
-
 ---
 
 This React.js web app has been deployed to [Heroku](https://devcenter.heroku.com/start). It was deployed with a builpack that automates deployment with the built-in bundler and serves it up via Nginx.  
