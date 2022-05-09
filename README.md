@@ -6,8 +6,8 @@ _This project is a showcase of the implementation of the parallax effect in a Re
 
 - [Node.js](https://nodejs.org)  
 - React.js  
-&nbsp;&nbsp; *[react-spring](https://react-spring.io/)*  
-&nbsp;&nbsp; *[react-spring/parallax](https://react-spring.io/)*
+    - [react-spring](https://react-spring.io/)
+    - [react-spring/parallax](https://react-spring.io/)
 
 ---
 
