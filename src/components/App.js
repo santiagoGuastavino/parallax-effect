@@ -44,7 +44,9 @@ let App = () => {
             end: 2.5
           }}
         >
-          <img src={ cat } alt='cat-gif' />
+          <div className='img-box'>
+            <img src={ cat } alt='cat-gif' />
+          </div>
         </ParallaxLayer>
 
         <ParallaxLayer
