@@ -1,11 +1,11 @@
 import './styles.css'
-import React, { useRef } from 'react';
-import moon from '../images/moon.png';
-import land from '../images/land.png';
-import cat from '../images/cat.gif';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+import React, { useRef } from 'react'
+import moon from '../images/moon.png'
+import land from '../images/land.png'
+import cat from '../images/cat.gif'
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
-let App = () => {
+export default function App () {
 
   let text = {
     title: 'This is Major Tom to Ground Control',
@@ -16,12 +16,12 @@ let App = () => {
 
   return (
     <div>
-      <Parallax pages={ 4 } ref={ ref }>
+      <Parallax pages={4} ref={ref}>
 
         <ParallaxLayer
-          offset={ 0 }
-          speed={ 1 }
-          factor={ 2 }
+          offset={0}
+          speed={1}
+          factor={2}
           style={{
             backgroundImage: `url(${ moon })`,
             backgroundSize: 'contain'
@@ -29,11 +29,11 @@ let App = () => {
         />
 
         <ParallaxLayer
-          offset={ 2 }
-          speed={ 1 }
-          factor={ 4 }
+          offset={2}
+          speed={1}
+          factor={4}
           style={{
-            backgroundImage: `url(${ land })`,
+            backgroundImage: `url(${land})`,
             backgroundSize: 'cover'
           }}
         />
@@ -45,33 +45,31 @@ let App = () => {
           }}
         >
           <div className='img-box'>
-            <img src={ cat } alt='cat-gif' />
+            <img src={cat} alt='cat-gif' />
           </div>
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={ 0.2 }
-          speed={ .05 }
+          offset={0.2}
+          speed={.05}
           onClick={() => ref.current.scrollTo(3)}
         >
           <h2>
-            { text.title }
+            {text.title}
           </h2>
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={ 3 }
-          speed={ 2 }
+          offset={3}
+          speed={2}
           onClick={() => ref.current.scrollTo(0)}
         >
           <h2 className='subtitle'>
-            { text.subtitle }
+            {text.subtitle}
           </h2>
         </ParallaxLayer>
 
       </Parallax>
     </div>
   )
-};
-
-export default App;
+}
