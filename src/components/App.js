@@ -6,13 +6,12 @@ import cat from '../images/cat.gif'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 export default function App () {
-
-  let text = {
+  const text = {
     title: 'This is Major Tom to Ground Control',
     subtitle: 'Succesful landing!'
   }
 
-  let ref = useRef()
+  const ref = useRef()
 
   return (
     <div>
@@ -23,7 +22,7 @@ export default function App () {
           speed={1}
           factor={2}
           style={{
-            backgroundImage: `url(${ moon })`,
+            backgroundImage: `url(${moon})`,
             backgroundSize: 'contain'
           }}
         />
@@ -40,7 +39,7 @@ export default function App () {
 
         <ParallaxLayer
           sticky={{
-            start: .4,
+            start: 0.4,
             end: 2.5
           }}
         >
@@ -51,7 +50,7 @@ export default function App () {
 
         <ParallaxLayer
           offset={0.2}
-          speed={.05}
+          speed={0.05}
           onClick={() => ref.current.scrollTo(3)}
         >
           <h2>
