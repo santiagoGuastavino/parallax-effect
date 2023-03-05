@@ -1,4 +1,4 @@
-[Parallax Effect]()
+[Parallax Effect](https://parallax-effect-six.vercel.app/)
 ---
 
 This project is a showcase of the implementation of the parallax effect in a React.js app using the [react-spring](https://react-spring.io/) library.  
@@ -8,8 +8,8 @@ Developed for educational purposes and for fun's sake.
 
 #### Project dependencies:
 
-- [Node.js](https://nodejs.org)  
-- React.js  
+- [Node.js](https://nodejs.org)
+- [React.js](https://reactjs.org/)
   - [react-spring](https://react-spring.io/)
   - [react-spring/parallax](https://react-spring.io/)
 
