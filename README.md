@@ -15,9 +15,8 @@ Developed for educational purposes and for fun's sake.
 
 ---
 
-Great parallax effect usage example: [Firewatch game website](https://www.firewatchgame.com/).
+Great parallax effect usage example: [Firewatch game website](https://www.firewatchgame.com/).  
 
 ---
 
-This React.js web app has been deployed to [Heroku](https://devcenter.heroku.com/start). It was deployed with a builpack that automates deployment with the built-in bundler and serves it up via Nginx.  
-**Read more: [Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack)**.
+This React.js Web App has been deployed to [Vercel](https://vercel.com/).  
